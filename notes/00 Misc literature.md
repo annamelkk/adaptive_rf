@@ -3,7 +3,7 @@
 
 
 - [Understanding Digital Signal Processing Third Edition Richard G. Lyons](https://ptgmedia.pearsoncmg.com/images/9780137027415/samplepages/0137027419.pdf)
-- [Communication systems](https://koracademy.com/sites/default/files/inline-files/communication-systems-4thedition-by-simonhaykin.pdf)
+- [Communication systems](https://rizkia.staff.telkomuniversity.ac.id/files/2016/02/Digital-Communication-Systems-Simon-S.-Haykin.pdf)
 - [SDR for Engineers](https://www.analog.com/media/en/training-seminars/design-handbooks/Software-Defined-Radio-for-Engineers-2018/SDR4Engineers.pdf)
 
 #### Stage 1
