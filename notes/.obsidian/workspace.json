@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Fundamentals & SDR Setup.md",
+                "file": "00 Phases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Fundamentals & SDR Setup"
+              "title": "00 Phases"
             }
           }
         ],
@@ -217,10 +217,10 @@
   },
   "active": "c36b175ecd9d4f6e",
   "lastOpenFiles": [
-    "00 Phases.md",
     "01 Fundamentals & SDR Setup.md",
-    "Untitled.md",
+    "00 Phases.md",
     "00 Misc literature.md",
+    "Untitled.md",
     "file:/home/anna/Downloads/Xiong F.(2000) Digital Modulation Techniques(669s).pdf"
   ]
 }

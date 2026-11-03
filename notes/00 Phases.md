@@ -22,7 +22,7 @@
 	- BPSK demodulation example in [GNU wiki](https://wiki.gnuradio.org/index.php/Simulation_example:_BPSK_Demodulation)
 	- [ ] Send/receive BPSK with Pluto
 - [ ] Measure BER
-- [ ] Document Pluto/GNU Radio setup
+- [x] Document Pluto/GNU Radio setup
 
 **Deliverable:**  
 A working Pluto-based digital communication link with measurable BER.

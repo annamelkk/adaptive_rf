@@ -5,6 +5,7 @@ Decision making process takes into account a set of pre-defined parameters, whic
 ### QAM
 
 - [ ] BPSK
+	- [File transfer using BPSK](https://wiki.gnuradio.org/index.php?title=File_transfer_using_Packet_and_BPSK)
 - [ ] QPSK
 - [ ] 16QAM
 - [ ] 64QAM
@@ -24,5 +25,6 @@ Decision making process takes into account a set of pre-defined parameters, whic
 ### To Do
 
 - [ ] Implement modulation schemes on hardware
+- [ ] Separate different channel qualities by their parameters, eg bad channel means large distance, large offsets
 - [ ] Research FEC
 - [ ] Initial system archiecture
