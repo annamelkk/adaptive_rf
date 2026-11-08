@@ -139,7 +139,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [392, 256.0]
+    coordinate: [665.75, 259.75]
     rotation: 0
     state: enabled
 - name: digital_constellation_modulator_0
@@ -161,7 +161,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [184, 240.0]
+    coordinate: [300.25, 236.25]
     rotation: 0
     state: enabled
 - name: fir_filter_xxx_0
@@ -180,7 +180,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [576, 384.0]
+    coordinate: [832, 352.0]
     rotation: 0
     state: enabled
 - name: qtgui_const_sink_x_0
@@ -272,7 +272,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [800, 272.0]
+    coordinate: [1080, 336.0]
     rotation: 0
     state: enabled
 - name: qtgui_freq_sink_x_0
@@ -353,7 +353,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [800, 48.0]
+    coordinate: [1080, 144.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0
@@ -450,7 +450,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [800, 160.0]
+    coordinate: [1080, 240.0]
     rotation: 0
     state: enabled
 

@@ -4,7 +4,7 @@ Decision making process takes into account a set of pre-defined parameters, whic
 
 ### QAM
 
-- [ ] BPSK
+- [x] BPSK
 	- [File transfer using BPSK](https://wiki.gnuradio.org/index.php?title=File_transfer_using_Packet_and_BPSK)
 - [ ] QPSK
 - [ ] 16QAM
