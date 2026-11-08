@@ -22,7 +22,7 @@ options:
     run_options: prompt
     sizing_mode: fixed
     thread_safe_setters: ''
-    title: Not titled yet
+    title: Transmitter for PLUTO SDR
     window_size: (1000,1000)
   states:
     bus_sink: false
@@ -34,23 +34,23 @@ options:
 
 blocks:
 - name: bpsk
-  id: variable_constellation_rect
+  id: variable_constellation
   parameters:
-    comment: 'Symbol map: [0, 1] is Gray coded'
-    const_points: '[-1-0j, 0.1+0j]'
-    imag_sect: '1'
+    comment: ''
+    const_points: '[-1-1j, -1+1j, 1+1j, 1-1j]'
+    dims: '1'
+    normalization: digital.constellation.AMPLITUDE_NORMALIZATION
+    npwr: '1.0'
     precision: '8'
-    real_sect: '1'
-    rot_sym: '2'
+    rot_sym: '4'
     soft_dec_lut: None
-    sym_map: '[0, 1]'
-    w_imag_sect: '1'
-    w_real_sect: '1'
+    sym_map: '[0, 1, 3, 2]'
+    type: bpsk
   states:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [40, 108.0]
+    coordinate: [40, 120.0]
     rotation: 0
     state: enabled
 - name: excess_bw
@@ -69,7 +69,7 @@ blocks:
   id: variable
   parameters:
     comment: ''
-    value: '1000000'
+    value: '500000'
   states:
     bus_sink: false
     bus_source: false
@@ -96,7 +96,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_IMP/message.bin
+    file: C:\Users\Admin\Desktop\adaptive_rf\GNU_radio\BPSK\BPSK_IMP\message.bin
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -129,27 +129,6 @@ blocks:
     coordinate: [536, 416.0]
     rotation: 0
     state: enabled
-- name: blocks_throttle2_0
-  id: blocks_throttle2
-  parameters:
-    affinity: ''
-    alias: ''
-    comment: ''
-    ignoretag: 'True'
-    limit: auto
-    maximum: '0.1'
-    maxoutbuf: '0'
-    minoutbuf: '0'
-    samples_per_second: samp_rate
-    type: complex
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [712, 264.0]
-    rotation: 0
-    state: disabled
 - name: digital_constellation_modulator_0
   id: digital_constellation_modulator
   parameters:
@@ -177,7 +156,7 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    attenuation1: '40'
+    attenuation1: '10'
     bandwidth: '1000000'
     buffer_size: '32768'
     comment: ''
@@ -190,7 +169,7 @@ blocks:
     len_tag_key: ''
     samplerate: samp_rate
     type: fc32
-    uri: ip:192.168.2.1
+    uri: usb:2.3.5
   states:
     bus_sink: false
     bus_source: false
@@ -287,7 +266,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [920, 96.0]
+    coordinate: [800, 96.0]
     rotation: 0
     state: disabled
 - name: qtgui_freq_sink_x_0
@@ -368,9 +347,9 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [920, 256.0]
+    coordinate: [800, 256.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_time_sink_x_0
   id: qtgui_time_sink_x
   parameters:
@@ -465,17 +444,16 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [920, 168.0]
+    coordinate: [800, 168.0]
     rotation: 0
     state: disabled
 
 connections:
 - [blocks_file_source_0, '0', digital_constellation_modulator_0, '0']
-- [blocks_multiply_const_vxx_0, '0', blocks_throttle2_0, '0']
 - [blocks_multiply_const_vxx_0, '0', iio_pluto_sink_0, '0']
-- [blocks_throttle2_0, '0', qtgui_const_sink_x_0, '0']
-- [blocks_throttle2_0, '0', qtgui_freq_sink_x_0, '0']
-- [blocks_throttle2_0, '0', qtgui_time_sink_x_0, '0']
+- [blocks_multiply_const_vxx_0, '0', qtgui_const_sink_x_0, '0']
+- [blocks_multiply_const_vxx_0, '0', qtgui_freq_sink_x_0, '0']
+- [blocks_multiply_const_vxx_0, '0', qtgui_time_sink_x_0, '0']
 - [digital_constellation_modulator_0, '0', blocks_multiply_const_vxx_0, '0']
 
 metadata:
