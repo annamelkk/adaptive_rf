@@ -132,7 +132,7 @@ blocks:
     bus_structure: null
     coordinate: [832, 472.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: analog_sig_source_x_0
   id: analog_sig_source_x
   parameters:
@@ -155,7 +155,7 @@ blocks:
     bus_structure: null
     coordinate: [264, 472.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: blocks_multiply_xx_0
   id: blocks_multiply_xx
   parameters:
@@ -173,7 +173,7 @@ blocks:
     bus_structure: null
     coordinate: [496, 488.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: digital_constellation_decoder_cb_0
   id: digital_constellation_decoder_cb
   parameters:
@@ -189,7 +189,7 @@ blocks:
     bus_structure: null
     coordinate: [1696, 424.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: digital_costas_loop_cc_0
   id: digital_costas_loop_cc
   parameters:
@@ -207,7 +207,7 @@ blocks:
     bus_structure: null
     coordinate: [1448, 432.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: digital_diff_decoder_bb_0
   id: digital_diff_decoder_bb
   parameters:
@@ -224,7 +224,7 @@ blocks:
     bus_structure: null
     coordinate: [1936, 416.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: digital_fll_band_edge_cc_0
   id: digital_fll_band_edge_cc
   parameters:
@@ -244,7 +244,7 @@ blocks:
     bus_structure: null
     coordinate: [1000, 456.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: digital_pfb_clock_sync_xxx_0
   id: digital_pfb_clock_sync_xxx
   parameters:
@@ -267,7 +267,7 @@ blocks:
     bus_structure: null
     coordinate: [1216, 456.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: epy_block_0
   id: epy_block
   parameters:
@@ -322,7 +322,7 @@ blocks:
     bus_structure: null
     coordinate: [2144, 424.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: iio_pluto_source_0
   id: iio_pluto_source
   parameters:
@@ -377,7 +377,7 @@ blocks:
     bus_structure: null
     coordinate: [648, 456.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_const_sink_x_0
   id: qtgui_const_sink_x
   parameters:
@@ -469,7 +469,7 @@ blocks:
     bus_structure: null
     coordinate: [1696, 496.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_freq_sink_x_0
   id: qtgui_freq_sink_x
   parameters:

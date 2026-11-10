@@ -139,7 +139,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [665.75, 259.75]
+    coordinate: [408, 232.0]
     rotation: 0
     state: enabled
 - name: digital_constellation_modulator_0
@@ -161,7 +161,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [300.25, 236.25]
+    coordinate: [168, 232.0]
     rotation: 0
     state: enabled
 - name: fir_filter_xxx_0
@@ -180,7 +180,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [832, 352.0]
+    coordinate: [600, 376.0]
     rotation: 0
     state: enabled
 - name: qtgui_const_sink_x_0

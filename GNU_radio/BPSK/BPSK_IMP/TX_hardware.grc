@@ -136,8 +136,8 @@ blocks:
     alias: ''
     comment: ''
     constellation: bpsk
-    differential: 'True'
-    excess_bw: excess_bw
+    differential: 'False'
+    excess_bw: excess_bw+0.15
     log: 'False'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -176,7 +176,7 @@ blocks:
     bus_structure: null
     coordinate: [800, 356.0]
     rotation: 0
-    state: enabled
+    state: disabled
 - name: qtgui_const_sink_x_0
   id: qtgui_const_sink_x
   parameters:
@@ -230,7 +230,7 @@ blocks:
     marker9: '0'
     name: '""'
     nconnections: '1'
-    size: '1024'
+    size: '384'
     style1: '0'
     style10: '0'
     style2: '0'
@@ -268,7 +268,7 @@ blocks:
     bus_structure: null
     coordinate: [800, 96.0]
     rotation: 0
-    state: disabled
+    state: enabled
 - name: qtgui_freq_sink_x_0
   id: qtgui_freq_sink_x
   parameters:
@@ -285,7 +285,7 @@ blocks:
     alpha8: '1.0'
     alpha9: '1.0'
     autoscale: 'False'
-    average: '1.0'
+    average: '0.2'
     axislabels: 'True'
     bw: samp_rate
     color1: '"blue"'
@@ -365,7 +365,7 @@ blocks:
     alpha7: '1.0'
     alpha8: '1.0'
     alpha9: '1.0'
-    autoscale: 'False'
+    autoscale: 'True'
     axislabels: 'True'
     color1: blue
     color10: dark blue
@@ -405,7 +405,7 @@ blocks:
     marker9: '-1'
     name: '""'
     nconnections: '1'
-    size: '100'
+    size: sps*8*12
     srate: samp_rate
     stemplot: 'False'
     style1: '1'
@@ -446,7 +446,7 @@ blocks:
     bus_structure: null
     coordinate: [800, 168.0]
     rotation: 0
-    state: disabled
+    state: enabled
 
 connections:
 - [blocks_file_source_0, '0', digital_constellation_modulator_0, '0']
