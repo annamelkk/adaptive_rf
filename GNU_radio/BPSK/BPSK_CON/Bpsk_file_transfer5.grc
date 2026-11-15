@@ -196,7 +196,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: C:\Users\Admin\Desktop\adaptive_rf\GNU_radio\BPSK\BPSK_IMP\bpsk_received.bin
+    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_IMP/bpsk_received.bin
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -214,7 +214,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: C:\Users\Admin\Desktop\adaptive_rf\GNU_radio\BPSK\BPSK_IMP\message.bin
+    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_IMP/message.bin
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
