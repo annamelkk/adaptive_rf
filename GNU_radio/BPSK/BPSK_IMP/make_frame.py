@@ -1,7 +1,7 @@
 import binascii
 import struct
 
-TEXT = "0"
+TEXT = "hello world"
 
 PREAMBLE    = bytes([0xAA] * 4) # alternating bits, so that receiver understands message is starting
 SYNC        = bytes.fromhex("1ACFFC1D") # 32-bit sync word the RX will search for
