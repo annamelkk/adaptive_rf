@@ -342,7 +342,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [784, 920.0]
+    coordinate: [816, 920.0]
     rotation: 0
     state: enabled
 - name: digital_diff_decoder_bb_0
@@ -386,7 +386,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [448, 936.0]
+    coordinate: [480, 932.0]
     rotation: 0
     state: enabled
 - name: filter_fft_rrc_filter_0
@@ -409,7 +409,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [216, 944.0]
+    coordinate: [248, 940.0]
     rotation: 0
     state: enabled
 - name: note_0
@@ -739,7 +739,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [992, 984.0]
+    coordinate: [1024, 984.0]
     rotation: 0
     state: enabled
 - name: virtual_sink_0
@@ -791,7 +791,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1000, 912.0]
+    coordinate: [1032, 912.0]
     rotation: 0
     state: enabled
 - name: virtual_source_0
@@ -817,7 +817,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [40, 992.0]
+    coordinate: [48, 992.0]
     rotation: 0
     state: enabled
 - name: virtual_source_2
