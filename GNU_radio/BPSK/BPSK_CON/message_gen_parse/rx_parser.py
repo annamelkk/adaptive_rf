@@ -2,7 +2,7 @@ import numpy as np, binascii, struct
 
 SYNC_BITS = "00011010110011111111110000011101"      # 0x1ACFFC1D, MSB first
 
-bits = np.fromfile("bpsk_received.bin", dtype=np.uint8) & 1
+bits = np.fromfile("received.bin", dtype=np.uint8) & 1
 s = "".join(map(str, bits))
 
 def read_bytes(start, nbytes):

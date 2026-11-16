@@ -196,7 +196,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_IMP/bpsk_received.bin
+    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_CON/message_gen_parse/received.bin
     type: byte
     unbuffered: 'False'
     vlen: '1'
@@ -214,7 +214,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_IMP/message.bin
+    file: /home/anna/Projects/adaptive_rf/GNU_radio/BPSK/BPSK_CON/message_gen_parse/message.bin
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'
@@ -504,7 +504,7 @@ blocks:
     marker7: '-1'
     marker8: '-1'
     marker9: '-1'
-    name: '""'
+    name: '"Modulated signal"'
     nconnections: '1'
     size: '1024'
     srate: samp_rate
@@ -545,7 +545,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [624, 344.0]
+    coordinate: [824, 448.0]
     rotation: 0
     state: enabled
 - name: qtgui_time_sink_x_0_0
@@ -850,8 +850,8 @@ blocks:
 connections:
 - [blocks_file_source_0, '0', virtual_sink_0, '0']
 - [blocks_multiply_const_vxx_0, '0', blocks_throttle2_0, '0']
-- [blocks_multiply_const_vxx_0, '0', qtgui_time_sink_x_0, '0']
 - [blocks_multiply_const_vxx_0, '0', virtual_sink_1, '0']
+- [blocks_throttle2_0, '0', qtgui_time_sink_x_0, '0']
 - [channels_channel_model_1, '0', qtgui_time_sink_x_0_0, '0']
 - [channels_channel_model_1, '0', virtual_sink_2, '0']
 - [digital_constellation_decoder_cb_1, '0', digital_diff_decoder_bb_0, '0']
