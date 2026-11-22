@@ -64,15 +64,17 @@
             }
           },
           {
-            "id": "4515a3b6b7a08a4c",
+            "id": "fb52d61e2ac5cd04",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "file:/home/anna/Downloads/ENGS251_SystemDesign_Session1.pdf"
+                "file": "file:/home/anna/Projects/serial_crypto_1/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "ENGS251_SystemDesign_Session1"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -240,8 +242,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "4515a3b6b7a08a4c",
+  "active": "fb52d61e2ac5cd04",
   "lastOpenFiles": [
+    "file:/home/anna/Downloads/ENGS251_SystemDesign_Session1.pdf",
+    "file:/home/anna/Projects/serial_crypto_1/serial_crypto_1/README.md",
     "12 Signal Transmission TX.md",
     "11 Signal Reception RX.md",
     "10 Fundamentals & SDR Setup.md",
