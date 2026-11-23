@@ -15,6 +15,14 @@
 
 - [Root raised cosine filter properties](https://engineering.purdue.edu/~ee538/SquareRootRaisedCosine.pdf)
 - [DSP Trick: Complex Downconverters for Signals at Fs/4 or 3Fs/4](https://dspguru.com/dsp/tricks/complex-downconverters-at-fs-over-4/)
+
+
+## Documentations
+
+- [PLUTO HDL](https://developer.analog.com/docs/hdl/latest/projects/pluto/index.html)
+- [liquidsdr](https://liquidsdr.org/doc/)
+- [Vuilding Apps for PlutoSDR Standalone](https://developer.analog.com/docs/system-level/tools/pluto/devs/embedded_code/)
+- [libiio doc](https://developer.analog.com/docs/libiio/main/)
 ## [Google Drive](https://drive.google.com/drive/folders/1jXkhzw2sFmLnjbJEs32GbP8pXLfQIhiz?usp=sharing) with relevant research
 
 

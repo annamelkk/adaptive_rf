@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:/home/anna/Projects/serial_crypto_1/README.md",
+                "file": "00 Misc literature.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "00 Misc literature"
             }
           }
         ],
@@ -244,15 +244,16 @@
   },
   "active": "fb52d61e2ac5cd04",
   "lastOpenFiles": [
+    "10 Fundamentals & SDR Setup.md",
+    "00 Misc literature.md",
+    "00 Phases.md",
+    "file:/home/anna/Projects/serial_crypto_1/README.md",
     "file:/home/anna/Downloads/ENGS251_SystemDesign_Session1.pdf",
     "file:/home/anna/Projects/serial_crypto_1/serial_crypto_1/README.md",
     "12 Signal Transmission TX.md",
     "11 Signal Reception RX.md",
-    "10 Fundamentals & SDR Setup.md",
-    "00 Phases.md",
     "assets_obsidian",
     "assets_obsidian/bpsk_rx.png",
-    "00 Misc literature.md",
     "file:/home/anna/Downloads/Xiong F.(2000) Digital Modulation Techniques(669s).pdf"
   ]
 }
